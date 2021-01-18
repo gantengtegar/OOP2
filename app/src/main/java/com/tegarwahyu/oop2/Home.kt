@@ -9,14 +9,14 @@ class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home);
-        btn_siswa.setOnClickListener {
+        btn_suplier.setOnClickListener {
 
             val go = Intent(this@Home, ViewSuplier::class.java)
 
             startActivity(go)
         }
 
-        btn_guru.setOnClickListener {
+        btn_barang.setOnClickListener {
 
             val go = Intent(this@Home, ViewBarang::class.java)
 
