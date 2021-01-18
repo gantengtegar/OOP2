@@ -30,10 +30,10 @@ class ViewSuplier : AppCompatActivity() {
         listItems.addAll(dao.getAll())
         setupRecyclerView(listItems)
         if (listItems.isNotEmpty()){
-            text_view_siswa_empty.visibility = View.GONE
+            text_view_suplier_empty.visibility = View.GONE
         }
         else{
-            text_view_siswa_empty.visibility = View.VISIBLE
+            text_view_suplier_empty.visibility = View.VISIBLE
         }
     }
 
