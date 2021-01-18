@@ -7,7 +7,7 @@
     tools:context=".Home">
 
     <Button
-        android:id="@+id/btn_siswa"
+        android:id="@+id/btn_suplier"
         android:layout_width="250dp"
         android:layout_height="0dp"
         android:layout_marginBottom="316dp"
@@ -16,17 +16,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_guru"
+        app:layout_constraintTop_toBottomOf="@+id/btn_barang"
         />
 
     <Button
-        android:id="@+id/btn_guru"
+        android:id="@+id/btn_barang"
         android:layout_width="250dp"
         android:layout_height="0dp"
         android:layout_marginTop="259dp"
         android:layout_marginBottom="36dp"
         android:text="Barang"
-        app:layout_constraintBottom_toTopOf="@+id/btn_siswa"
+        app:layout_constraintBottom_toTopOf="@+id/btn_suplier"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
