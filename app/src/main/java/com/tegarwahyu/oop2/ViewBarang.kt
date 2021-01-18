@@ -32,10 +32,10 @@ class ViewBarang : AppCompatActivity() {
         listItem.addAll(dao.getAll())
         setupRecyclerView(listItem)
         if (listItem.isNotEmpty()){
-            text_view_guru_empty.visibility = View.GONE
+            text_view_barang_empty.visibility = View.GONE
         }
         else{
-            text_view_guru_empty.visibility = View.VISIBLE
+            text_view_barang_empty.visibility = View.VISIBLE
         }
     }
 
